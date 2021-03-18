@@ -8,12 +8,12 @@ pagination:
 ---
 {% for post in posts %}
   <article>
-    <h1>{{ post.data.title }}</h1>
+    <h2>{{ post.data.title }}</h2>
 	<time datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
  	
 	{% excerpt post %}
 
 	<a href="{{ post.url | url }}"
-   		aria-label="Read more on {{ post.data.title }}"><b>Read more</b></a>
+   		aria-label="Read more on {{ post.data.title }}">Read more</a>
  </article>
 {% endfor %}

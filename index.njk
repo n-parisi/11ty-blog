@@ -1,4 +1,16 @@
 ---
 layout: base-layout.njk
 ---
-<h1>Hello World!</h1>
+<h1>Welcome!</h1>
+
+<article>
+	<h3>Recent Blog Posts</h3>
+	<ul>	
+	{% for post in collections.post | reverse %}
+		<li>
+			<a href="{{ post.url | url }}">{{ post.data.title }}</a> -
+			<i><time datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time></i>
+		</li>
+	{% endfor %}
+	</ul>
+</article>
