@@ -7,10 +7,12 @@ layout: base-layout.njk
 	<h3>Recent Blog Posts</h3>
 	<ul>	
 	{% for post in collections.post | reverse %}
-		<li>
-			<a href="{{ post.url | url }}">{{ post.data.title }}</a> -
-			<i><time datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time></i>
-		</li>
+		{% if loop.index0 < 5 %}
+			<li>
+				<a href="{{ post.url | url }}">{{ post.data.title }}</a> -
+				<i><time datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time></i>
+			</li>
+		{% endif %}
 	{% endfor %}
 	</ul>
 </article>
