@@ -1,5 +1,6 @@
 ---
 layout: index-layout
+title: Home
 ---
 ## Welcome!
 

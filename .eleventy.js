@@ -13,7 +13,7 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addShortcode('excerpt', article => extractExcerpt(article));
-  eleventyConfig.addPassthroughCopy("img");
+  eleventyConfig.addPassthroughCopy("static");
 };
 
 function extractExcerpt(article) {
