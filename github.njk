@@ -1,0 +1,18 @@
+---
+layout: base-layout
+title: GitHub Activity
+---
+<table>
+  <caption>GitHub Activity</caption>
+  <tbody>
+    {% for activity in github.slice(0,10) %}
+	  <tr>
+	    <td>{{ activity.type.replace("Event", "") }}</td>
+		<td><a href=https://github.com/{{ activity.repo.name }}/commit/{{ activity.payload.commits[0].sha }}>
+			{{ activity.repo.name }}</a></td>
+		<td>{{ activity.created_at | dateReadable }}</td>
+	  </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
