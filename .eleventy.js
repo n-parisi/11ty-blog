@@ -14,6 +14,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addShortcode('excerpt', article => extractExcerpt(article));
   eleventyConfig.addPassthroughCopy("static");
+  eleventyConfig.addPassthroughCopy("admin/config.yml");
 };
 
 function extractExcerpt(article) {
