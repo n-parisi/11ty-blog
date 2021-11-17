@@ -12,4 +12,4 @@ I live in Pennsylvania with my wife Nora. We enjoy watching lots of movies (espe
 
 I also love D&D, board games, and many other kinds of standard nerd hobbies which I may write about one day on here. I hope to grow this space over time and maybe stumble upon other interesting uses for it. I hope you enjoy your stay.
 
-Connect with me via [email](mailto:nick@nick-parisi.com)!
+Connect with me via [email](mailto:nickparisi@pm.me) or [LinkedIn](https://www.linkedin.com/in/nparisi1/)!
