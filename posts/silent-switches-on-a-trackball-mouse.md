@@ -1,11 +1,12 @@
 ---
 layout: post-layout.njk 
-title: Silent Switches in a Trackball Mouse
+title: Silent Switches on a Trackball Mouse
+excerpt: Replacing the switches on a Logitech M570 thumb trackball mouse with silent switches.
 date: 2022-01-20
 tags: ['post']
 ---
 <!-- Excerpt Start -->
-Replacing the switches on a standard thumb trackball mouse with silent ones.
+{{excerpt}}
 <!-- Excerpt End --> 
 
 #### Silent Switches
