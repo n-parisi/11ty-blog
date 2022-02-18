@@ -40,7 +40,5 @@ clicks are now practically silent - just like I wanted! Awesome!
 Here's a video of the mod and some of the steps along the way. This was a fun and satisfying project! Maybe the video 
 will help another poor soul who just can't stand loud mouse clicks!
 
-<video width="700" controls>
-    <source src="https://nparisi-public.s3.amazonaws.com/silent_switches.mov" type="video/mp4">
-</video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/O53JCMg_ihA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
